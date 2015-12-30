@@ -1,0 +1,366 @@
+body{
+
+	font-family: 'Open Sans', sans-serif;
+	font-weight: 100;
+	margin: 0 auto;
+}
+h1{
+    font-weight: 100;
+    font-size: 38px;
+    line-height: 1.1em;
+    margin-bottom: 0.2em;
+}
+.comverse-header{
+    height: 80px;
+    width: 100%;
+    position: fixed;
+    background: #FFFFFF;
+    box-shadow: 0 0 5px 1px rgba(0, 0, 0, 0.5);
+    top: 0;
+    left: 0;
+    z-index: 1000;
+}
+.header{
+	margin-left: 140px;
+
+}
+.tags > li > a:hover{
+	color:#e5e5e5;
+}
+a{
+	text-decoration: none;
+	color: black;
+}
+.nav-side{
+	margin-right: 125px;
+}
+.nav-side > select{
+	border: none;
+}
+nav ul{
+	list-style-type: none;
+	display: inline-flex;
+	
+}
+.tags > li 
+{
+
+    margin: 0px 10px 0px 10px;
+}
+figcaption{
+	color: white;
+
+}
+figure{
+    width: 92px;
+}
+.tags > li > a{
+
+	font-size: 14px;
+}
+.headernavigator
+{
+	display: inline;
+}
+.search_field {
+    display: inline-block;
+    float:right;
+    padding-top:3px;
+    position:relative;
+   /* margin: 42px 125px 0px 0px ;*/
+    /*margin-top: 35px;*/
+}
+.search_field input {
+    padding: 0;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    height:20px;
+    outline: none;
+    padding-left: 5px;
+    display: inline-block;
+    width: 140px;
+}
+.search_field button {
+    border: none;
+    background: none;
+    cursor: pointer;
+    display:inline-block;
+    position:relative;
+    right:33px;
+    top:-1px;
+}
+.search_field button img {
+    width:20px;
+    height:20px;
+}
+
+#search-img {
+	margin-bottom: -6px;
+}
+
+.first
+{
+	background:url(../img/slide-bg-complexity.jpg) no-repeat center center fixed ;
+	color: white;
+	-webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+    z-index:500;
+    padding-top: 70px
+	
+}
+.first-par
+{
+	margin: 0px 0px 0px 190px;
+
+}
+
+.nav-side {
+    display: inline-block;
+    padding-top: 10px;
+    color: #a0a0a0;
+    padding-left: 70px;
+    margin-left: 15px;
+    float: right;
+    margin-top: -81px;
+}
+.navs{
+	margin-left: -43px;
+}
+.navs li{
+	border-radius: 3px;
+    width: 13px;
+    height: 13px;
+    background-color: #e5e5e5;;
+    display: inline-block;
+    list-style: none;
+    text-align: center;
+    float: left;
+    margin-left: 9px;
+}
+li.selected {
+    background-color: #3399CC;
+    color: #3399CC;
+}
+
+.rounded-cubes {
+    border-radius: 8px;
+    display: inline-block;
+    margin-right: 20px;
+    opacity: 0.85;
+    padding: 10px 10px;
+    width: 269px;
+    cursor: pointer;
+    margin-left: 0px;
+}
+.rounded-cubes:hover {
+    opacity: 1;
+}
+.cubes{
+	color:white;
+	margin-left: 150px;
+}
+.rounded-cubes > section > a {
+    color:#FFF;
+ 
+    font-size:14px;
+}
+.cube-purple { background:#fb429c; }
+.cube-green { background:#5eb433; }
+.cube-orange { background:#ff7519; }
+.cube-text {
+    padding: 10px;
+    margin-top: 0px;
+    height: 130px;
+}
+.second{
+	background: #46a2c7;
+	background-size: cover;
+	color: white;
+	height: 325px;
+    text-align: center;
+
+}
+.second-list{
+    margin-right: 94px;
+}
+.second-list li{
+    opacity: 0.85;
+	list-style: none;
+	display: inline-block;
+	color: white;
+    padding: 20px 0 20px 20px;
+}
+.second-list li:hover{
+    opacity: 1;
+}
+.containetr-second{
+	width: 940px;
+	margin: 0px auto;
+} 
+.blue-button{
+	background-color: #63B8EE;
+	background: linear-gradient(top,  #3196C9,  #1A8CC6);
+	background: -ms-linear-gradient(top,  #3196C9,  #1A8CC6);
+	background: -webkit-gradient(linear, left top, left bottom, from(#3196C9), to(#1A8CC6));
+	background: -moz-linear-gradient(top,  #3196C9,  #1A8CC6);
+	height: 36px;
+	width: 160px;
+	padding: 10px;
+	border: none;
+	text-align: left;
+	border-radius: 7px;
+	color: white;
+
+}
+.third{
+    background: url(../img/news-and-events-bg.jpg) no-repeat center center fixed; 
+    background-size: cover;
+    height:360px;
+    color: white;
+}
+.third >h1{
+    text-align: center;
+}
+#events-title {
+    padding-left: 160px;
+    padding-top: 30px;
+}
+
+.third-list > li {
+    display: inline-block;
+}
+
+.third-list{
+    padding: 0;
+    margin: 0 auto;
+    margin-left: 200px;
+}
+
+.third-list > li {
+    display: inline-block;
+    width: 280px;
+    padding: 10px;
+    height: 150px;
+}
+.third-list > li > a > section >h2{
+    color: white;
+}
+.third-list > li > a > section > article {
+    border-radius:4px;
+    background-color: rgba(255, 255, 255, 0.3);
+    padding: 10px; 
+    margin-bottom: 10px;
+    height: 89px;
+}
+
+.third-list > li > a > section > article:hover{
+    background-color: white;
+}
+
+.third-list > li > a > section > article > p {
+    margin-top: -2px;
+    color: black;
+    padding-left: 60px;
+} 
+
+.all-link {
+    color: #FFF;
+    outline: 0;
+    text-decoration: none;
+}
+
+span.day-container {
+    display:block;
+    background:#46a2c7;
+    border-bottom: 1px dashed #FFF;
+    border-top-right-radius: 3px;
+    border-top-left-radius: 3px;
+    width: 52px;
+    height: 48px;
+    color: white;
+}
+
+span.month-container{
+    display:block;
+    background:#46a2c7;
+    border-bottom-right-radius: 3px;
+    border-bottom-left-radius: 3px;
+    font-size:26px;
+    width: 52px;
+    color: white;
+} 
+
+h1.news {
+    width: 65px;
+    margin: 0 auto;
+    padding: 0;
+    float: left;
+    font-weight: 400;
+    text-align: center;
+}
+
+.all-news-events {
+    padding-left:10px;
+    cursor: pointer;
+    margin-top: 10px;
+}
+.fourth{
+    background-color: rgb(240,240,240) ;
+}
+.fourthheader
+{
+    background-color: rgb(240,240,240) ;
+    text-align: center;
+}
+
+#blockquote1 {
+    width: 345px;
+}
+.clients-list{
+    list-style: none;
+}
+
+.clients-list > li > blockquote > p {
+    margin-left: 133px;
+    margin-top: -104px;
+    height: 105px;
+
+}
+
+#quote-grey {
+    padding-bottom: 80px;
+} 
+
+
+.clients-list > li > blockquote {
+    padding: 7px;
+    margin: 0 auto;
+    background: #FFF;
+    border-radius: 3px;
+    width: 321px;
+    margin-left: 5px
+}
+
+.personal-details1 {
+    border-top: 1px solid #ccc;
+}
+
+.personal-details1 > p {
+    margin: 0;
+    padding: 2px;
+}
+.person-logo1 {
+    float: right;
+    max-width: 100px;
+    margin-top: -51px;
+}
+
+.person-details1 > p > a {
+    text-transform: uppercase;
+    text-decoration: none;
+    outline: none;
+    color: #3399cc;
+    /*padding-right: 55px;*/
+}
