@@ -174,6 +174,9 @@ li.selected {
     margin-top: 0px;
     height: 130px;
 }
+#link-icon{
+    margin-bottom: -8px;
+}
 .second{
 	background: #46a2c7;
 	background-size: cover;
@@ -182,18 +185,92 @@ li.selected {
     text-align: center;
 
 }
+
 .second-list{
     margin-right: 94px;
+    list-style: none;
+
 }
 .second-list li{
-    opacity: 0.85;
-	list-style: none;
 	display: inline-block;
-	color: white;
-    padding: 20px 0 20px 20px;
+    width: 150px;
+    height:150px;
+    text-align: center;
+    vertical-align: middle;
+    display: inline-block;
 }
-.second-list li:hover{
-    opacity: 1;
+.data{
+    height:50px;
+    background-image: url("../img/solution_icon_smart-money.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    padding-top: 20px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.data:hover{
+    background-image: url("../img/solution_icon_smart-money_hover.png");
+}
+.flag{
+    height:50px;
+    margin-left: 15px;
+    background-image: url("../img/solution_icon_optimize-efficnt.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    padding-top: 20px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.flag:hover{
+    background-image: url("../img/solution_icon_optimize-efficnt_hover.png");
+}
+.machine{
+    height:50px;
+    background-image: url("../img/solution_icon_personal.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    padding-top: 20px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.machine:hover{
+    background-image: url("../img/solution_icon_personal_hover.png");
+}
+.cloud{
+    height:50px;
+    background-image: url("../img/solution_icon_biz-transform.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    padding-top: 20px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.cloud:hover{
+     background-image: url("../img/solution_icon_biz-transform_hover.png");
+}
+.managed{
+    height:50px;
+    background-image: url("../img/solution_icon_biz-analitics.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    padding-top: 20px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.managed:hover{
+    background-image: url("../img/solution_icon_biz-analitics_hover.png");
+}
+.social{
+    height:50px;
+    background-image: url("../img/solution_icon_diti-cx.png");
+    background-repeat-x: no-repeat;
+    background-repeat-y: no-repeat;
+    padding-top: 20px;
+    background-position-x: 50%;
+    background-position-y: 50%;
+}
+.social:hover{
+    background-image: url("../img/solution_icon_diti-cx_hover.png");
 }
 .containetr-second{
 	width: 940px;
@@ -226,10 +303,6 @@ li.selected {
 #events-title {
     padding-left: 160px;
     padding-top: 30px;
-}
-
-.third-list > li {
-    display: inline-block;
 }
 
 .third-list{
@@ -301,66 +374,34 @@ h1.news {
     text-align: center;
 }
 
-.all-news-events {
-    padding-left:10px;
-    cursor: pointer;
-    margin-top: 10px;
-}
-.fourth{
-    background-color: rgb(240,240,240) ;
-}
-.fourthheader
-{
-    background-color: rgb(240,240,240) ;
-    text-align: center;
+.all{
+    color:#FFF;
+   
 }
 
-#blockquote1 {
-    width: 345px;
-}
-.clients-list{
-    list-style: none;
+@media{
+    .all :hover{
+    color:black;   
 }
 
-.clients-list > li > blockquote > p {
-    margin-left: 133px;
-    margin-top: -104px;
-    height: 105px;
 
+
+.all-news:before{
+    content: url("../img/eventListIconNews.png");
+        display: inline;  
 }
 
-#quote-grey {
-    padding-bottom: 80px;
-} 
-
-
-.clients-list > li > blockquote {
-    padding: 7px;
-    margin: 0 auto;
-    background: #FFF;
-    border-radius: 3px;
-    width: 321px;
-    margin-left: 5px
+.all-news:hover:before {
+  content: url("../img/eventListIconNews_hover.png"); }
 }
 
-.personal-details1 {
-    border-top: 1px solid #ccc;
+.all-events:before{
+     content: url("../img/eventListIconEvents.png");
+        display: inline; 
 }
 
-.personal-details1 > p {
-    margin: 0;
-    padding: 2px;
-}
-.person-logo1 {
-    float: right;
-    max-width: 100px;
-    margin-top: -51px;
+.all-events:hover:before {
+  content: url("../img/eventListIconEvents_hover.png"); }
 }
 
-.person-details1 > p > a {
-    text-transform: uppercase;
-    text-decoration: none;
-    outline: none;
-    color: #3399cc;
-    /*padding-right: 55px;*/
 }
